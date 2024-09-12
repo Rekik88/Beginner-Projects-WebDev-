@@ -1,0 +1,21 @@
+#container {
+  text-align: center;
+}
+h1 {
+  font-size: 3em;
+}
+label {
+  font-size: 2em;
+}
+button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: hsl(180, 100%, 36%);
+  color: white;
+}
+button:hover {
+  background-color: hsl(180, 100%, 26%);
+}
+#diceImages img {
+  width: 150px;
+}
