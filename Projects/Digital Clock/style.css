@@ -1,0 +1,22 @@
+body {
+  background-image: url("sports-car-futuristic-mountain-sunset-scenery.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#clock-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#clock {
+  font-size: 6.5em;
+  font-weight: bold;
+  font-family: monospace;
+  backdrop-filter: blur(50px);
+  border-radius: 10px;
+  padding: 0px 20px;
+  width: 90%;
+  text-align: center;
+}
