@@ -1,0 +1,50 @@
+body {
+  background-color: hsl(0, 0%, 70%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+#title {
+  font-size: 2.8rem;
+  color: hsl(0, 0%, 20%);
+}
+#choice button {
+  font-size: 5rem;
+  background-color: hsl(220, 100%, 50%);
+  border: none;
+  border-radius: 500px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+#choice button:hover {
+  background-color: hsl(220, 100%, 60%);
+}
+#choices {
+  font-size: 2rem;
+  color: hsl(0, 0%, 5%);
+  margin: 30px;
+}
+#choices p {
+  margin: 0;
+}
+#result {
+  font-size: 3rem;
+  color: hsl(0, 0%, 0%);
+  visibility: hidden;
+}
+#score {
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 5%);
+  margin: 30px;
+}
+#score p {
+  margin: 0;
+}
+#playerScore {
+  color: green;
+}
+#computerScore {
+  color: red;
+}
